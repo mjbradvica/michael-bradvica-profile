@@ -156,5 +156,8 @@
 
         [Route("replacing-switch-statements-with-chainStrategy")]
         public IActionResult ReplacingSwitchStatementsWithChainStrategy() => View();
+
+        [Route("return-enums-as-objects")]
+        public IActionResult ReturnEnumsAsObjects() => View();
     }
 }
